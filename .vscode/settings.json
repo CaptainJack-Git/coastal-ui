@@ -1,0 +1,25 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "eslint.enable": true,  // 开启vscode的eslint
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+  // 指定vscode的eslint所处理的文件类型
+  "eslint.options": {
+    "extensions": [
+      	".js",
+      	".jsx",
+        ".ts",
+        ".tsx"
+    ]
+  },
+  // 确定校验准则
+  "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "html",
+      "typescript",
+      "typescriptreact"
+  ],
+}
